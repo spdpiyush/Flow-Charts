@@ -1,9 +1,72 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.5 Safari/605.1.15" version="24.7.12">
   <diagram name="Page-1" id="_iXsRKQ63wu3pNSmyKMb">
-    <mxGraphModel>
+    <mxGraphModel dx="1406" dy="761" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="rn56e-Va4gdquYGCVgkg-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="rn56e-Va4gdquYGCVgkg-1" target="rn56e-Va4gdquYGCVgkg-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rn56e-Va4gdquYGCVgkg-1" value="&lt;font face=&quot;Verdana&quot;&gt;Payment-Service&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="40" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rn56e-Va4gdquYGCVgkg-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="rn56e-Va4gdquYGCVgkg-4" target="rn56e-Va4gdquYGCVgkg-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rn56e-Va4gdquYGCVgkg-4" value="&lt;font face=&quot;Verdana&quot;&gt;Create Transfer Token&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="540" y="150" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rn56e-Va4gdquYGCVgkg-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="rn56e-Va4gdquYGCVgkg-6" target="rn56e-Va4gdquYGCVgkg-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rn56e-Va4gdquYGCVgkg-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="rn56e-Va4gdquYGCVgkg-6" target="rn56e-Va4gdquYGCVgkg-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rn56e-Va4gdquYGCVgkg-6" value="&lt;font face=&quot;Verdana&quot;&gt;Fetch CashBacks for this User which are with &lt;b&gt;FAILED&lt;/b&gt; Status&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="270" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rn56e-Va4gdquYGCVgkg-8" value="" style="shape=datastore;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="880" y="270" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rn56e-Va4gdquYGCVgkg-10" value="&lt;font face=&quot;Verdana&quot;&gt;user_cashback_payout&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="840" y="330" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rn56e-Va4gdquYGCVgkg-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="rn56e-Va4gdquYGCVgkg-11" target="rn56e-Va4gdquYGCVgkg-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rn56e-Va4gdquYGCVgkg-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="rn56e-Va4gdquYGCVgkg-11" target="rn56e-Va4gdquYGCVgkg-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rn56e-Va4gdquYGCVgkg-11" value="&lt;font face=&quot;Verdana&quot;&gt;Is Transfer Token&amp;nbsp;&lt;/font&gt;&lt;div&gt;&lt;font face=&quot;Verdana&quot;&gt;Empty&lt;/font&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="380" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="rn56e-Va4gdquYGCVgkg-13" value="&lt;font face=&quot;Verdana&quot;&gt;Update the Cashback Records with &lt;b&gt;RETRY&amp;nbsp;&lt;/b&gt;status and failure reason 0010. Only for those records which are Failed due to 0002 and 0013.&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="831" y="390" width="230" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="rn56e-Va4gdquYGCVgkg-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="rn56e-Va4gdquYGCVgkg-15" target="rn56e-Va4gdquYGCVgkg-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rn56e-Va4gdquYGCVgkg-15" value="&lt;font face=&quot;Verdana&quot;&gt;From List of FAILED Cashbacks filter &amp;amp; process only those records which are Failed due to 0002 and 0013&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="550" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="rn56e-Va4gdquYGCVgkg-17" value="&lt;font face=&quot;Verdana&quot;&gt;TRUE&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="690" y="378" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rn56e-Va4gdquYGCVgkg-18" value="&lt;font face=&quot;Verdana&quot;&gt;FALSE&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="580" y="460" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rn56e-Va4gdquYGCVgkg-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="rn56e-Va4gdquYGCVgkg-19" target="rn56e-Va4gdquYGCVgkg-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rn56e-Va4gdquYGCVgkg-19" value="&lt;font face=&quot;Verdana&quot;&gt;Update the Status to &lt;b&gt;RETRY &lt;/b&gt;so the Retry Job Process the Record&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="560" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rn56e-Va4gdquYGCVgkg-21" value="" style="shape=datastore;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="560" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rn56e-Va4gdquYGCVgkg-23" value="&lt;span style=&quot;caret-color: rgb(0, 0, 0); color: rgb(0, 0, 0); font-family: Verdana; font-size: 12px; font-style: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: auto; text-align: center; text-indent: 0px; text-transform: none; white-space: nowrap; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration: none; display: inline !important; float: none;&quot;&gt;user_cashback_payout&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="620" width="170" height="40" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
